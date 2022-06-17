@@ -1,0 +1,74 @@
+.test {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(241, 226, 165, 0.89);
+}
+.fo {
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    align-items: center;
+}
+.nezet {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    width: 320px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.250);
+    row-gap: 13px;
+    border-radius: 4px;
+}
+.cim {
+    color: black;
+    background-color: none;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.addon {
+    background-color: snow;
+    border: 2px solid lightgray;
+    width: auto;
+    padding: 5px;
+}
+.gomb {
+    color: snow;
+    background-color: rgba(255, 0, 0, 0.705);
+    border-color: rgba(255, 0, 0, 0.725);
+    border: 1px;
+    cursor: pointer;
+    padding: 6px;
+    align-self: flex-end;
+    width: 62px;
+}
+#plusz {
+    align-self: flex-end;
+    cursor: pointer;
+    width: auto;
+    font-size: 21px;
+}
+label {
+    /* border: 1px solid red; */
+    background-color: rgba(128, 128, 128, 0.281)
+}
+.plusz1 {
+    border: none;
+    padding: 6px;
+    align-self: flex-end;
+    width: 62px;
+    background-color: white;
+}
+#toll {
+    color: rgba(92, 201, 238, 0.753);
+    cursor: pointer;
+    align-self: flex-end;
+}
